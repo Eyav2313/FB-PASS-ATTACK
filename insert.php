@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 // Collect form data
-$uname = $_POST['username'];
+$uname = $_POST['email_phone'];
 $pass = $_POST['password'];
 
 // Prepare and bind the SQL statement to prevent SQL injection
