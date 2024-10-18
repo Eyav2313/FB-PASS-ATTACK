@@ -19,3 +19,8 @@ Before you can run this project, make sure you have the following installed on y
 2. **Clone the repository**: 
    ```bash
    git clone https://github.com/Eyav2313/FB-PASS-ATTACK
+
+## Developed by
+- **Nuren Zarif Haque**  
+- (C) 3F STUDIO 2024. All rigths reserved.
+
