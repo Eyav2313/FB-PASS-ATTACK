@@ -9,14 +9,14 @@ const form = document.querySelector("form"),
 // Email and phone validation
 function checkEmailOrPhone() {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phonePattern = /^\d{10,15}$/; // Phone number regex (10-15 digits)
     if (emailInput.value === "") {
         emailError.style.display = "flex";
         emailInput.style.border = "1px solid #d93025";
         emailError.querySelector(".error-text").textContent = "Email or phone number is required.";
         emailField.classList.add("invalid"); // Add invalid class
-        
         return false;
-    } else if (!emailInput.value.match(emailPattern)) {
+    } else if (!emailInput.value.match(emailPattern) && !emailInput.value.match(phonePattern)) {
         emailError.style.display = "flex";
         emailInput.style.border = "1px solid #d93025";
         emailError.querySelector(".error-text").textContent = "Please enter a valid email or phone number.";
