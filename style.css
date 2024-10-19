@@ -52,7 +52,17 @@ form {
   width: 100%;
 }
 
-form input {
+form .field {
+  margin-bottom: 20px;
+}
+
+form .input-field {
+  position: relative;
+  height: 55px;
+  width: 100%;
+}
+
+.input-field input {
   height: 55px;
   width: 100%;
   border: 1px solid #ccc;
@@ -62,9 +72,42 @@ form input {
   padding: 0 14px;
 }
 
-form input:focus {
+.invalid input {
+  border-color: #d93025;
+}
+
+.input-field input:focus {
   outline: none;
   border-color: #1877f2;
+}
+
+.field .error{
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  color: #d93025;
+  display: none;
+}
+
+.invalid .error {
+  display: flex;
+}
+
+.error .error-icon {
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+.error .error-text {
+  font-size: 13px;
+}
+
+.email-phone .error {
+  align-items: flex-start;
+}
+
+.password .error {
+  align-items: flex-start;
 }
 
 ::placeholder {
