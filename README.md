@@ -19,7 +19,7 @@ This project demonstrates how to create a Facebook-style login page using HTML a
 - If the phone number does not match the required pattern, an error is displayed.
 
 ### Password Validation
-- The password must meet specific criteria, such as minimum length (e.g., 6 characters), and must contain at least one number, one uppercase letter, and one special character.
+- The password must meet specific criteria, such as minimum length (e.g., 6 characters).
 - Validation is done both on the client side (before form submission) and on the server side (after submission).
 
 ## Prerequisites
@@ -35,6 +35,6 @@ Before you can run this project, make sure you have the following installed on y
    git clone https://github.com/Eyav2313/FB-PASS-ATTACK
 
 ## Developed by
-- **Nuren Zarif Haque**  
-- (C) 3F STUDIO 2024. All rigths reserved.
+**Nuren Zarif Haque**  
+(C) 3F STUDIO 2024. ALL RIGHTS RESERVED.
 
