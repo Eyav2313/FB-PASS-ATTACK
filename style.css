@@ -144,12 +144,9 @@ form a {
 }
 
 .link .forgot {
-  color: #1877f2;
+  pointer-events: none;
+  color: #4d78b1;
   font-size: 0.875rem;
-}
-
-.link .forgot:hover {
-  text-decoration: underline;
 }
 
 hr {
@@ -167,17 +164,14 @@ hr {
 }
 
 .button a {
+  pointer-events: none;
   padding: 15px 20px;
-  background: #42b72a;
+  background: #5ca34d;
   border-radius: 6px;
   color: #fff;
   font-size: 1.063rem;
   font-weight: 600;
   transition: 0.2s ease;
-}
-
-.button a:hover {
-  background: #3ba626;
 }
 
 @media (max-width: 900px) {
